@@ -4,16 +4,16 @@ Application pire2pire - Utilise la methode Merise
 
 ## Table des matières
 
-1. Introduction
-2. Acronyme MERISE 
+1. [Introduction]{#introduction}
+2. [Acronyme MERISE ] {#accro}
 3. [Règles de gestion](https://github.com/Jwell2014/Appli_pire2pire/blob/master/Merise/Gestion_rules.md)
 4. Dictionnire de données
-5. MCD
+5. [MCD] (https://github.com/Jwell2014/Appli_pire2pire/blob/master/Merise/MCD.md)
 6. MLD
 7. MPD
 8. ScriptSQL
 
-## 1/Introduction
+## 1/Introduction {#introduction}
 
 ### **Contexte du projet**
 
@@ -67,7 +67,7 @@ La nomenclature MERISE est respectée
 
 
 
-## 2/ Acronymre MERISE
+## 2/ Acronymre MERISE {#accro}
 
 
 # Méthode Merise : Une approche structurée pour la conception de systèmes d'information
