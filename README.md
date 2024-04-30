@@ -13,7 +13,7 @@ Application pire2pire - Utilise la methode Merise
 7. [MPD](https://github.com/Jwell2014/Appli_pire2pire/blob/master/Merise/MPD.md)
 8. [ScriptSQL](https://github.com/Jwell2014/Appli_pire2pire/blob/master/Merise/SciptSQL.md)
 
-## 1/Introduction {#introduction}
+## 1/Introduction (#introduction)
 
 ### **Contexte du projet**
 
@@ -67,7 +67,7 @@ La nomenclature MERISE est respectée
 
 
 
-## 2/ Acronymre MERISE {#accro}
+## 2/ Acronymre MERISE (#accro)
 
 
 # Méthode Merise : Une approche structurée pour la conception de systèmes d'information
