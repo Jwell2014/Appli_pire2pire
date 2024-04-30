@@ -59,14 +59,13 @@
 
 **Gestion des modules**
 
-- Le module doit contenir :
-    - un titre
-    - un auteur (formateur)
-    - une ou plusieurs leçon
-    - un objectif pédagogique
-    - un ou plusieurs tags.
-    - status
-    - IsValide
+- Le module possède un titre
+- Le module possède un auteur (formateur)
+- Le module possède une ou plusieurs leçon
+- Le module possède un objectif pédagogique
+- Le module possède un ou plusieurs tags.
+- Le module possède status
+- Le module possède IsValide
 - Le module doit contenir une ou plusieurs leçons.
 - Le module peut avoir le status : Draft/Active/archive.
 - Le modules peut être rattaché à aucune ou plusieurs formations.
