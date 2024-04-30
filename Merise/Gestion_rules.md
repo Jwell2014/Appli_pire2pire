@@ -1,4 +1,4 @@
-# [fa=firefox /]  **Règle de gestion**
+# **Règle de gestion** 📄
 
 **Visite du site pire2pire.com**
 
