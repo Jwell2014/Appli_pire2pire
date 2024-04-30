@@ -69,6 +69,7 @@ La nomenclature MERISE est respectée
 
 ## 2/ Acronymre MERISE <a name="accro"></a>
 
+> Méthode Informatique pour la Société des Entreprises
 
 # Méthode Merise : Une approche structurée pour la conception de systèmes d'information
 
