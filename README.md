@@ -71,7 +71,7 @@ La nomenclature MERISE est respectée
 
 > Méthode Informatique pour la Société des Entreprises
 
-# Méthode Merise : Une approche structurée pour la conception de systèmes d'information
+## Méthode Merise : Une approche structurée pour la conception de systèmes d'information
 
 La méthode Merise est une approche de conception de systèmes d'information largement utilisée dans le domaine de l'informatique et de la gestion de projets. Développée en France dans les années 1970 par René Colletti et Jean-René Bernard, cette méthode repose sur des concepts structurés et des démarches systématiques pour analyser, concevoir et implémenter des systèmes d'information.
 

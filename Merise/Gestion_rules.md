@@ -1,4 +1,4 @@
-### **Règle de gestion**
+# **Règle de gestion**  [fa=fa-file-text /]
 
 **Visite du site pire2pire.com**
 
