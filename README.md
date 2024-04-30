@@ -4,8 +4,8 @@ Application pire2pire - Utilise la methode Merise
 
 ## Table des matières
 
-1. [Introduction]{#introduction}
-2. [MERISE]{#accro}
+1. [Introduction](#introduction)
+2. [MERISE](#accro)
 3. [Règles de gestion](https://github.com/Jwell2014/Appli_pire2pire/blob/master/Merise/Gestion_rules.md)
 4. [Dictionnire de données](https://github.com/Jwell2014/Appli_pire2pire/blob/master/Merise/Dictionnaire_de_donnees)
 5. [MCD](https://github.com/Jwell2014/Appli_pire2pire/blob/master/Merise/MCD.md)
