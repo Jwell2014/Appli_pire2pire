@@ -8,13 +8,12 @@
 
 **Connexion users**
 
-- Un user doit contenir : 
-° numéro d’inscription unique, 
-° un nom, 
-° un prénom, 
-° une adresse 
-° une date de naissance
-° role
+- Un user possède numéro d’inscription unique, 
+- Un user possède un nom,
+- Un user possède un prénom, 
+- Un user possède une adresse 
+- Un user possède une date de naissance
+- Un user possède role
 - Il existe trois rôles : admin, apprenant et formateur.
 - L'admin, l’apprenant ou le formateur peut se connecter via un formulaire de connexion.
     - L'admin, l’apprenant ou le formateur devra renseigner son email et son mot de passe afin de s'authentifier.
@@ -31,16 +30,16 @@
 
 **Gestion des leçons**
 
-- La leçon doit contenir :
-    - un titre
-    - un auteur (formateur)
-    - un objectif pédagogique
-    - une ou plusieurs vidéos
-    - une ou plusieurs images
-    - un ou plusieurs paragraphes
-    - un ou plusieurs tags.
-    - un status(Draft,Active,Archive)
-    - IsValide
+- Une leçon possède un titre
+- Une leçon possède un auteur (formateur)
+- Une leçon possède un objectif pédagogique
+- Une leçon possède une ou plusieurs vidéos
+- Une leçon possède une ou plusieurs images
+- Une leçon possède une ou plusieurs images
+- Une leçon possède un ou plusieurs paragraphes
+- Une leçon possède un ou plusieurs tags.
+- Une leçon possède un status(Draft,Active,Archive)
+- Une leçon possède IsValide
 - Une leçon doit contenir une ou plusieurs videos.
 - Une leçon doit contenir une ou plusieurs images.
 - Une leçon doit contenir un ou plusieurs paragraphes.
@@ -84,14 +83,14 @@
 
 **Gestion des formations**
 
-- La formation doit contenir :
-    - un titre
-    - un ou des auteurs (formateur)
-    - un ou plusieurs modules
-    - un objectif pédagogique
-    - un ou plusieurs tags.
-    - status(Draft,Active,Archive)
-    - IsValide
+- Une formation possède un titre
+- Une formation possède un ou des auteurs (formateur)
+- Une formation possède un ou des auteurs (formateur)
+- Une formation possède un ou plusieurs modules
+- Une formation possède un objectif pédagogique
+- Une formation possède un ou plusieurs tags.
+- Une formation possède status(Draft,Active,Archive)
+- Une formation possède IsValide
 - La formation peut être créer par un ou plusieurs formateurs
 - La formation peut être modifier par le ou les formateurs qui ont accès
 - La formation peut être supprimer par le ou les formateurs qui ont accès
