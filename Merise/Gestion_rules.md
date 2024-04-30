@@ -1,4 +1,4 @@
-# **Règle de gestion**  [fa=fa-file-text /]
+# **Règle de gestion** [g-icon icon=file-text icon_type="fontawesome"][/g-icon]
 
 **Visite du site pire2pire.com**
 
