@@ -6,7 +6,7 @@ Application pire2pire - Utilise la methode Merise
 
 1. Introduction
 2. Acronyme MERISE 
-3. regles de gestions
+3. [Règles de gestion](https://github.com/Jwell2014/Appli_pire2pire/blob/master/Merise/Gestion_rules.md)
 4. Dictionnire de données
 5. MCD
 6. MLD
