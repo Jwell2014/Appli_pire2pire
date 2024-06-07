@@ -1,4 +1,4 @@
  # ** MPD **
 
 
-![Getting Started](/Assets/mpd-pire2pire.png)
+![Getting Started](/Assets/mpd.png)

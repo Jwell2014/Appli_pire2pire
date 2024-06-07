@@ -69,7 +69,7 @@ La nomenclature MERISE est respectée
 
 ## 2/ Acronymre MERISE <a name="accro"></a>
 
-> Méthode Informatique pour la Société des Entreprises
+> MERISE (Méthode d'Etude et de Réalisation Informatique pour les Systèmes d'Entreprise) est une méthodologie de modélisation des données largement utilisée dans le domaine de l'informatique de gestion, en particulier en France.
 
 ## Méthode Merise : Une approche structurée pour la conception de systèmes d'information
 
