@@ -6,78 +6,66 @@ Il constitue une référence essentielle pour les développeurs, les administrat
 
 Ce tableau présente chaque table avec ses attributs, types de données et clés primaires et étrangères, ainsi que des descriptions.
 
-| Nom de la table | Description | Nom de l'attribut | Type de données | Clé | Description de l'attribut |
-| --- | --- | --- | --- | --- | --- |
-| Roles | Stocke les informations sur les rôles | Id_Role | Integer | PK | Identifiant du rôle |
-|  |  | Libelle | String |  | Nom du rôle |
-| Utilisateurs | Contient les informations des utilisateurs | Id_Utilisateur | Integer | PK | Identifiant de l'utilisateur |
-|  |  | Nom | String |  | Nom de l'utilisateur |
-|  |  | Prenom | String |  | Prénom de l'utilisateur |
-|  |  | Email | String |  | Adresse email de l'utilisateur |
-|  |  | Mot_de_passe | String |  | Mot de passe de l'utilisateur |
-|  |  | Id_Role | Integer | FK (Roles) | Référence au rôle de l'utilisateur |
-| Formations | Regroupe les informations sur les formations | Id_Formation | Integer | PK | Identifiant de la formation |
-|  |  | Libelle | String |  | Nom de la formation |
-|  |  | Description | String |  | Description de la formation |
-| Projets_Formations | Table associative pour les projets et formations | Id_Video | Integer | PK, FK (Videos) | Référence à la vidéo liée au projet |
-|  |  | Id_Formation | Integer | PK, FK (Formations) | Référence à la formation liée au projet |
-| Videos | Contient les informations des vidéos | Id_Video | Integer | PK | Identifiant de la vidéo |
-|  |  | Libelle | String |  | Nom de la vidéo |
-|  |  | Nom | String |  | Fichier de la vidéo |
-| Projets_Modules | Table associative pour les projets et modules | Id_Video | Integer | PK, FK (Videos) | Référence à la vidéo liée au projet |
-|  |  | Id_Module | Integer | PK, FK (Modules) | Référence au module lié au projet |
-| Projets_Images | Table associative pour les projets et images | Id_Video | Integer | PK, FK (Videos) | Référence à la vidéo liée au projet |
-|  |  | Id_Image | Integer | PK, FK (Images) | Référence à l'image liée au projet |
-| Images | Contient les informations des images | Id_Image | Integer | PK | Identifiant de l'image |
-|  |  | Libelle | String |  | Nom de l'image |
-| Paragraphes | Contient les informations des paragraphes | Id_Paragraphe | Integer | PK | Identifiant du paragraphe |
-|  |  | Libelle | String |  | Titre du paragraphe |
-|  |  | Contenu | Text |  | Contenu du paragraphe |
-| Objets_Pedagogiques | Contient les informations des objets pédagogiques | Id_Objet | Integer | PK | Identifiant de l'objet pédagogique |
-|  |  | Libelle | String |  | Nom de l'objet pédagogique |
-|  |  | Description | String |  | Description de l'objet pédagogique |
-|  |  | Id_Module | Integer | FK (Modules) | Référence au module lié à l'objet |
-| Attributs | Contient les informations des attributs | Id_Attribut | Integer | PK | Identifiant de l'attribut |
-|  |  | Numero | Integer |  | Numéro de l'attribut |
-|  |  | Valeur | String |  | Valeur de l'attribut |
-|  |  | Code_Postal | String |  | Code postal lié à l'attribut |
-| Validations | Contient les informations des validations | Id_Validation | Integer | PK | Identifiant de la validation |
-|  |  | Libelle | String |  | Nom de la validation |
-| Validations_Jsons | Contient les informations des validations JSON | Id_Validation | Integer | PK, FK (Validations) | Référence à la validation |
-|  |  | Libelle | String |  | Nom de la validation JSON |
-|  |  | Json | Text |  | Données JSON de la validation |
-| Tags | Contient les informations des tags | Id_Tag | Integer | PK | Identifiant du tag |
-|  |  | Libelle | String |  | Nom du tag |
-| Tags_Jsons | Contient les informations des tags JSON | Id_Tag | Integer | PK, FK (Tags) | Référence au tag |
-|  |  | Libelle | String |  | Nom du tag JSON |
-|  |  | Json | Text |  | Données JSON du tag |
-| Etres | Contient les informations des êtres | Id_Etre | Integer | PK | Identifiant de l'être |
-|  |  | Libelle | String |  | Nom de l'être |
-|  |  | Valeur | String |  | Valeur de l'être |
-|  |  | Id_Validation | Integer | FK (Validations) | Référence à la validation |
-| Modules | Contient les informations des modules | Id_Module | Integer | PK | Identifiant du module |
-|  |  | Libelle | String |  | Nom du module |
-|  |  | Description | String |  | Description du module |
-| Leçons | Contient les informations des leçons | Id_Lecon | Integer | PK | Identifiant de la leçon |
-|  |  | Libelle | String |  | Nom de la leçon |
-|  |  | Description | String |  | Description de la leçon |
-|  |  | Id_Formation | Integer | FK (Formations) | Référence à la formation liée |
-| Remplis | Contient les informations des remplis | Id_Module | Integer | PK, FK (Modules) | Référence au module |
-|  |  | Id_Formation | Integer | PK, FK (Formations) | Référence à la formation |
-| Utilisateurs_Formations | Table associative pour les utilisateurs et formations | Id_Utilisateur | Integer | PK, FK (Utilisateurs) | Référence à l'utilisateur |
-|  |  | Id_Formation | Integer | PK, FK (Formations) | Référence à la formation |
-| Utilisateurs_Modules | Table associative pour les utilisateurs et modules | Id_Utilisateur | Integer | PK, FK (Utilisateurs) | Référence à l'utilisateur |
-|  |  | Id_Module | Integer | PK, FK (Modules) | Référence au module |
-| Utilisateurs_Lecons | Table associative pour les utilisateurs et leçons | Id_Utilisateur | Integer | PK, FK (Utilisateurs) | Référence à l'utilisateur |
-|  |  | Id_Lecon | Integer | PK, FK (Leçons) | Référence à la leçon |
-| Utilisateurs_Projets | Table associative pour les utilisateurs et projets | Id_Utilisateur | Integer | PK, FK (Utilisateurs) | Référence à l'utilisateur |
-|  |  | Id_Projet | Integer | PK, FK (Projets) | Référence au projet |
-| Projets | Contient les informations des projets | Id_Projet | Integer | PK | Identifiant du projet |
-|  |  | Libelle | String |  | Nom du projet |
-|  |  | Description | String |  | Description du projet |
-| Projets_Lecons | Table associative pour les projets et leçons | Id_Projet | Integer | PK, FK (Projets) | Référence au projet |
-|  |  | Id_Lecon | Integer | PK, FK (Leçons) | Référence à la leçon |
-| Projets_Tags | Table associative pour les projets et tags | Id_Projet | Integer | PK, FK (Projets) | Référence au projet |
-|  |  | Id_Tag | Integer | PK, FK (Tags) | Référence au tag |
+| Entité | Attribut | Type de Données | Longueur | Contraintes | Description | Exemple |
+| --- | --- | --- | --- | --- | --- | --- |
+| Roles | id_role | INT |  | AUTO_INCREMENT, NOT NULL, UNIQUE, PK | Identifiant unique du rôle | 1 |
+|  | type | VARCHAR | 50 |  | Type de rôle | "Administrateur" |
+| Adresses | id_adresse | INT |  | AUTO_INCREMENT, NOT NULL, UNIQUE, PK | Identifiant unique de l'adresse | 1 |
+|  | numero | INT |  | NOT NULL | Numéro de l'adresse | 12 |
+|  | rue | VARCHAR | 50 | NOT NULL | Rue de l'adresse | "Rue des Acacias" |
+|  | ville | VARCHAR | 50 | NOT NULL | Ville de l'adresse | "Lyon" |
+|  | code_postal | VARCHAR | 50 | NOT NULL | Code postal de l'adresse | "69001" |
+|  | pays | VARCHAR | 50 | NOT NULL | Pays de l'adresse | "France" |
+| Utilisateurs | id_utilisateur | INT |  | AUTO_INCREMENT, NOT NULL, UNIQUE, PK | Identifiant unique de l'utilisateur | 1 |
+|  | nom | VARCHAR | 50 |  | Nom de l'utilisateur | "Durand" |
+|  | prenom | VARCHAR | 50 |  | Prénom de l'utilisateur | "Emmy" |
+|  | email | VARCHAR | 50 |  | Adresse e-mail de l'utilisateur | "mailto:emmy.durand@example.com" |
+|  | mdp | VARCHAR | 50 |  | Mot de passe de l'utilisateur | "@p#as%J2R!" |
+|  | date_de_naissance | DATE |  |  | Date de naissance de l'utilisateur | "1992-07-15" |
+|  | id_adresse | INT |  | NOT NULL, FK | Clé étrangère vers la table Adresses | 1 |
+| Paragraphes | id | INT |  | AUTO_INCREMENT, NOT NULL, UNIQUE, PK | Identifiant unique du paragraphe | 1 |
+|  | nom | VARCHAR | 50 | NOT NULL | Nom du paragraphe | "Introduction" |
+|  | contenu | TEXT |  | NOT NULL | Contenu du paragraphe | "Contenu du paragraphe..." |
+| Videos | id_video | INT |  | AUTO_INCREMENT, NOT NULL, UNIQUE, PK | Identifiant unique de la vidéo | 1 |
+|  | nom | VARCHAR | 50 | NOT NULL | Nom de la vidéo | "Vidéo d'introduction" |
+|  | url | TEXT |  | NOT NULL | URL de la vidéo | "https://example.com/video.mp4" |
+| Lecons | id_lecon | INT |  | AUTO_INCREMENT, NOT NULL, UNIQUE, PK | Identifiant unique de la leçon | 1 |
+|  | nom | VARCHAR | 50 | NOT NULL | Nom de la leçon | "Introduction à Python" |
+|  | contenu | TEXT |  | NOT NULL | Contenu de la leçon | "Détails sur les types de données..." |
+|  | id_video | INT |  | NOT NULL, FK | Clé étrangère vers la table Videos | 1 |
+| Images | id_image | INT |  | AUTO_INCREMENT, NOT NULL, UNIQUE, PK | Identifiant unique de l'image | 1 |
+|  | nom | VARCHAR | 50 | NOT NULL | Nom de l'image | "Image d'introduction" |
+|  | url | TEXT |  | NOT NULL | URL de l'image | "https://example.com/image.jpg" |
+| Modules | id_module | INT |  | AUTO_INCREMENT, NOT NULL, UNIQUE, PK | Identifiant unique du module | 1 |
+|  | nom | VARCHAR | 50 | NOT NULL | Nom du module | "Fondamentaux de la programmation" |
+|  | contenu | TEXT |  | NOT NULL | Contenu du module | "Apprendre les bases de Python..." |
+| Formations | id | INT |  | AUTO_INCREMENT, NOT NULL, UNIQUE, PK | Identifiant unique de la formation | 1 |
+|  | titre | VARCHAR | 50 | NOT NULL | Titre de la formation | "Bases de Données" |
+|  | contenu | TEXT |  | NOT NULL | Contenu de la formation | "Introduction aux Bases de Données" |
+| Tag | id | INT |  | AUTO_INCREMENT, NOT NULL, UNIQUE, PK | Identifiant unique du tag | 1 |
+|  | nom | VARCHAR | 50 | NOT NULL | Nom du tag | "#TypeScript" |
+| Validation_lecons | id_validation_lecon | INT |  | AUTO_INCREMENT, NOT NULL, UNIQUE, PK | Identifiant unique de la validation de la leçon | 1 |
+|  | nom | VARCHAR | 50 | NOT NULL | Nom de la validation de la leçon | "Validation de Python" |
 
+### Relations et Contraintes
+
+| Entité Source | Attribut Source | Entité Cible | Attribut Cible | Type de Contrainte |
+| --- | --- | --- | --- | --- |
+| ObjPedagogiques | id_module | Modules | id_module | FK |
+| ObjPedagogiques | id | Formations | id | FK |
+| ObjPedagogiques | id_lecon | Lecons | id_lecon | AK |
+| Etre | id_lecon | Lecons | id_lecon | FK |
+| Etre | id_validation_lecon | Validation_lecons | id_validation_lecon | FK |
+| Lier_lecon | id_lecon | Lecons | id_lecon | FK |
+| Lier_lecon | id | Tag | id | FK |
+| Ecrire_lecon | id | Paragraphes | id | FK |
+| Ecrire_lecon | id_lecon | Lecons | id_lecon | FK |
+| Imager_lecon | id | Images | id | FK |
+| Imager_lecon | id_lecon | Lecons | id_lecon | FK |
+| Projeter_lecon | id_video | Videos | id_video | FK |
+| Projeter_lecon | id_lecon | Lecons | id_lecon | FK |
+| Remplir | id_module | Modules | id_module | FK |
+| Remplir | id_lecon | Lecons | id_lecon | FK |
+| Creer_lecon | id_lecon | Lecons | id_lecon | FK |
+| Creer_lecon | id_utilisateur | Utilisateurs | id_utilisateur | FK |
 
