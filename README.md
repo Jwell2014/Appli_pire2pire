@@ -13,6 +13,8 @@
 7. [MPD](https://github.com/Jwell2014/Appli_pire2pire/blob/master/Merise/MPD.md)
 8. [ScriptSQL](https://github.com/Jwell2014/Appli_pire2pire/blob/master/Merise/SciptSQL.md)
 9. [UML](#uml)
+10. [Use Case](https://github.com/Jwell2014/Appli_pire2pire/blob/master/UML/Use_case.md)
+
 
 
 ## 1/Introduction <a name="introduction"></a>
@@ -106,11 +108,11 @@ En résumé, l'utilisation de la méthode Merise dans mon projet Pire2Pire m'a p
 
 **UML (Unified Modeling Language)** est une méthodologie standardisée utilisée pour modéliser des systèmes logiciels. Elle offre une représentation visuelle des éléments constitutifs d'un système et de leurs interactions, facilitant ainsi la conception, la documentation, et la communication au sein des équipes de développement.
 
-### UML : Une approche standardisée pour la conception de systèmes logiciels
+## UML : Une approche standardisée pour la conception de systèmes logiciels
 
 Le langage de modélisation UML a été développé dans les années 1990 par un groupe de chercheurs et d'ingénieurs, dont Grady Booch, Ivar Jacobson, et James Rumbaugh. UML est devenu un standard de facto pour la conception orientée objet, permettant de représenter aussi bien les aspects structurels que comportementaux d'un système logiciel.
 
-### Principes fondamentaux d'UML
+## Principes fondamentaux d'UML
 
 UML repose sur plusieurs concepts clés :
 
@@ -120,7 +122,7 @@ UML repose sur plusieurs concepts clés :
 
 - **L'unification des méthodes de modélisation** : UML unifie plusieurs méthodes de modélisation préexistantes en un seul cadre cohérent. Cela permet aux développeurs et aux analystes de travailler avec une méthodologie commune, améliorant ainsi la collaboration et la communication au sein des équipes.
 
-### Utilisation d'UML dans le projet Pire2Pire
+## Utilisation d'UML dans le projet Pire2Pire
 
 Dans mon projet **Pire2Pire**, j'ai appliqué UML pour concevoir et développer un système de gestion de formation en ligne. Voici comment j'ai utilisé UML dans ce projet :
 
