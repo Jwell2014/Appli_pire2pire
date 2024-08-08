@@ -30,7 +30,8 @@
 
 ## 1/Introduction <a name="introduction"></a>
 
-### **Contexte du projet**
+### Merise
+## **Contexte du projet**
 
 Les formations sont organisés en modules.
 
@@ -49,6 +50,32 @@ Une formation est considérée comme terminée lorsque tous les modules ont ét�
 Chaque apprenant est caractérisé par un numéro d’inscription unique, un nom, un prénom, une adresse et une date de naissance.
 
 Un formateurs est auteur d'un module pour une formation donnée, chaque formateur est caractérisé par un code, un nom, un prénom.
+
+
+### UML
+
+## Conception UML : pire2pire.com
+
+Votre mission est de concevoir la partie UML d’une plateforme de formation en ligne nommée pire2pire.com.
+
+## **Contexte du projet**
+Les formations sont organisées en modules.
+
+Chaque module est caractérisé par un numéro de module sous forme de Semantic Versionning, un intitulé, un objectif pédagogique, un contenu (textes, images et vidéos), une durée en heures, un ou plusieurs tags et un auteur.
+
+Un module peut faire partie d'une ou plusieurs formations, comme par exemple un module "Commandes de base Git" pourrait faire partie d'une formation "Frontend Javascript" et "DevOps", voire plus.
+
+Un module peut contenir un texte et/ou une image et/ou une vidéo.
+
+Les apprenants peuvent s'inscrire à une ou plusieurs formations, ils peuvent choisir de ne pas suivre certains des modules s'ils possèdent déjà, par exemple, les compétences. Autrement dit, ils peuvent arbitrairement valider les modules de leur choix en un clic.
+
+Chaque apprenant est évalué pour chaque module et possède un état de fin de module (OK / KO).
+
+Une formation est considérée comme terminée lorsque tous les modules ont été validés.
+
+Chaque apprenant est caractérisé par un numéro d’inscription unique, un nom, un prénom, une adresse et une date de naissance.
+
+Un formateur est auteur d'un module pour une formation donnée, chaque formateur est caractérisé par un code, un nom, un prénom.
 
 ### **Modalités pédagogiques**
 
@@ -74,6 +101,11 @@ Un dépôt Github recensant :
 - Un MLD 
 - Un MPD 
 - Un script SQL de la base de données
+- Un diagramme de classes UML
+- Au moins deux diagrammes de séquence UML différents
+- Un diagramme de cas d'utilisation UML
+- Un diagramme d'activité UML
+- Un document expliquant les choix de conception
 
 ### **Critères de performance**
 
@@ -144,3 +176,8 @@ Dans mon projet **Pire2Pire**, j'ai appliqué UML pour concevoir et développer 
 - **Modélisation des interactions et des processus** : J'ai utilisé des diagrammes de séquence pour représenter les interactions entre les différents composants du système au fil du temps. Cela m'a permis de visualiser les échanges de messages entre les objets et de s'assurer que les processus critiques étaient correctement modélisés.
 
 - **Modélisation des flux de travail** : Avec des diagrammes d'activité, j'ai décrit les processus métier et les flux de travail au sein du
+
+
+### Conclusion
+
+L'utilisation d'UML dans le projet **Pire2Pire** m'a permis de structurer la conception et le développement du système de manière méthodique et visuelle. Grâce à UML, j'ai pu capturer les aspects statiques et dynamiques du système, ce qui m'a facilité la compréhension globale du projet et assuré la conformité aux exigences fonctionnelles et techniques. UML m'a également aidée à mieux gérer les risques et les complexités, en me fournissant une vue d'ensemble claire et détaillée du système tout au long de son développement.
