@@ -16,6 +16,8 @@
 10. [Use Case](https://github.com/Jwell2014/Appli_pire2pire/blob/master/UML/1.Use_case.md)
 11. [Diagramme d'activité "Connection"](https://github.com/Jwell2014/Appli_pire2pire/blob/master/UML/2.Diagramme_activite_connection.md)
 12. [Diagramme d'activité "Inscription formation"](https://github.com/Jwell2014/Appli_pire2pire/blob/master/UML/3.Diagramme_activite_inscription_formation.md)
+13. [Diagramme de séquence "Connection"](https://github.com/Jwell2014/Appli_pire2pire/blob/master/UML/4.Diagramme_sequence_connection.md)
+
 
 
 
