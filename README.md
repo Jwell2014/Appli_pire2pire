@@ -18,6 +18,8 @@
 12. [Diagramme d'activité "Inscription formation"](https://github.com/Jwell2014/Appli_pire2pire/blob/master/UML/3.Diagramme_activite_inscription_formation.md)
 13. [Diagramme de séquence "Connection"](https://github.com/Jwell2014/Appli_pire2pire/blob/master/UML/4.Diagramme_sequence_connection.md)
 14. [Diagramme de séquence "Inscription formation"](https://github.com/Jwell2014/Appli_pire2pire/blob/master/UML/5.Diagramme_sequence_inscription_formation.md)
+15. [Diagramme de classe](https://github.com/Jwell2014/Appli_pire2pire/blob/master/UML/6.Diagramme_classe.md)
+
 
 
 
