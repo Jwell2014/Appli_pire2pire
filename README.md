@@ -13,7 +13,7 @@
 7. [MPD](https://github.com/Jwell2014/Appli_pire2pire/blob/master/Merise/MPD.md)
 8. [ScriptSQL](https://github.com/Jwell2014/Appli_pire2pire/blob/master/Merise/SciptSQL.md)
 9. [UML](#uml)
-10. [Use Case](https://github.com/Jwell2014/Appli_pire2pire/blob/master/UML/Use_case.md)
+10. [Use Case](https://github.com/Jwell2014/Appli_pire2pire/blob/master/UML/1.Use_case.md)
 
 
 
