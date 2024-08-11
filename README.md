@@ -191,10 +191,10 @@ L’utilisation d’UML (Unified Modeling Language) a été choisie pour la mod�
 
 ### 2. Choix de l’architecture du diagramme d’activité
 
-Le diagramme d’activité a été conçu de manière à représenter deux parties principales : **le client** (qui représente l’utilisateur du système) et **l’API** (qui représente le back-end ou la logique métier du système). Cette séparation permet de clarifier les rôles de chaque composant dans le processus de connexion ou d’inscription, et de montrer les interactions entre eux.
+Le diagramme d’activité a été conçu de manière à représenter deux parties principales : **l’utilisateur** (qui représente l’utilisateur du système) et **l’API** (qui représente le back-end ou la logique métier du système). Cette séparation permet de clarifier les rôles de chaque composant dans le processus de connexion ou d’inscription, et de montrer les interactions entre eux.
 
 - **Orientation verticale** : L’orientation verticale a été choisie pour aligner les étapes dans un flux descendant, facilitant la lecture du processus et la compréhension de la séquence d'événements.
-- **Swimlanes (Couloirs)** : Les swimlanes ont été utilisées pour séparer les responsabilités entre le client et l’API, illustrant clairement quelles actions sont effectuées par le front-end et lesquelles sont prises en charge par le back-end.
+- **Swimlanes (Couloirs)** : Les swimlanes ont été utilisées pour séparer les responsabilités entre l’utilisateur et l’API, illustrant clairement quelles actions sont effectuées par le front-end et lesquelles sont prises en charge par le back-end.
 
 ### 3. Modélisation des cas de connexion et d’inscription
 
