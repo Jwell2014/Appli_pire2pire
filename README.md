@@ -19,6 +19,7 @@
 13. [Diagramme de séquence "Connection"](https://github.com/Jwell2014/Appli_pire2pire/blob/master/UML/4.Diagramme_sequence_connection.md)
 14. [Diagramme de séquence "Inscription formation"](https://github.com/Jwell2014/Appli_pire2pire/blob/master/UML/5.Diagramme_sequence_inscription_formation.md)
 15. [Diagramme de classe](https://github.com/Jwell2014/Appli_pire2pire/blob/master/UML/6.Diagramme_classe.md)
+15. [Conclusion](#conclusion)
 
 
 
@@ -178,6 +179,73 @@ Dans mon projet **Pire2Pire**, j'ai appliqué UML pour concevoir et développer 
 - **Modélisation des flux de travail** : Avec des diagrammes d'activité, j'ai décrit les processus métier et les flux de travail au sein du
 
 
-### Conclusion
+### Conclusion <a name="conclusion"></a>
 
 L'utilisation d'UML dans le projet **Pire2Pire** m'a permis de structurer la conception et le développement du système de manière méthodique et visuelle. Grâce à UML, j'ai pu capturer les aspects statiques et dynamiques du système, ce qui m'a facilité la compréhension globale du projet et assuré la conformité aux exigences fonctionnelles et techniques. UML m'a également aidée à mieux gérer les risques et les complexités, en me fournissant une vue d'ensemble claire et détaillée du système tout au long de son développement.
+
+### Document expliquant les choix de conception
+
+### 1. Choix de la méthodologie UML
+
+L’utilisation d’UML (Unified Modeling Language) a été choisie pour la modélisation des aspects statiques et dynamiques du système, en raison de sa popularité, sa standardisation, et sa capacité à représenter visuellement des concepts complexes de manière claire et cohérente. UML permet de capturer à la fois la structure et le comportement du système, offrant une vue d'ensemble complète qui facilite la communication entre les membres de l'équipe et avec les parties prenantes.
+
+### 2. Choix de l’architecture du diagramme d’activité
+
+Le diagramme d’activité a été conçu de manière à représenter deux parties principales : **le client** (qui représente l’utilisateur du système) et **l’API** (qui représente le back-end ou la logique métier du système). Cette séparation permet de clarifier les rôles de chaque composant dans le processus de connexion ou d’inscription, et de montrer les interactions entre eux.
+
+- **Orientation verticale** : L’orientation verticale a été choisie pour aligner les étapes dans un flux descendant, facilitant la lecture du processus et la compréhension de la séquence d'événements.
+- **Swimlanes (Couloirs)** : Les swimlanes ont été utilisées pour séparer les responsabilités entre le client et l’API, illustrant clairement quelles actions sont effectuées par le front-end et lesquelles sont prises en charge par le back-end.
+
+### 3. Modélisation des cas de connexion et d’inscription
+
+Pour les scénarios de **connexion** et d’**inscription**, deux chemins ont été modélisés :
+
+- **Cas de succès** : Décrit ce qui se passe lorsque l'utilisateur fournit des informations valides et que l’opération réussit.
+- **Cas d'échec** : Décrit les vérifications et les retours d'erreur lorsque l'utilisateur ne remplit pas correctement les informations demandées.
+
+Cette distinction est cruciale pour gérer les différentes issues possibles et assurer une expérience utilisateur fluide en cas d'erreurs.
+
+### Conventions de Nommage des Commits
+
+L’utilisation de conventions de nommage pour les commits est essentielle pour maintenir un historique de projet clair et compréhensible. Voici une convention proposée :
+
+### Structure du message de commit :
+
+```less
+lessCopier le code
+[type]: [sujet bref]
+
+[Description plus détaillée du commit, si nécessaire]
+
+```
+
+### Types de commits :
+
+- **feat** : Pour l’ajout d’une nouvelle fonctionnalité.
+    - Exemple : `feat: ajout de l'interface de connexion`
+- **fix** : Pour une correction de bug.
+    - Exemple : `fix: correction du bug d'affichage sur la page de connexion`
+- **docs** : Pour les modifications de documentation.
+    - Exemple : `docs: mise à jour du README avec les instructions d'installation`
+- **style** : Pour les changements de style (formatage, points virgules manquants, etc.) qui n'affectent pas la logique du code.
+    - Exemple : `style: formatage du code dans le fichier de connexion`
+- **refactor** : Pour une refactorisation de code qui n'ajoute ni ne corrige une fonctionnalité.
+    - Exemple : `refactor: refactorisation de la logique de validation des formulaires`
+- **test** : Pour l’ajout ou la modification de tests.
+    - Exemple : `test: ajout des tests unitaires pour la fonction de connexion`
+- **chore** : Pour les tâches qui ne modifient ni le code ni les tests (ex : mises à jour de dépendances).
+    - Exemple : `chore: mise à jour des dépendances npm`
+
+### Exemple de Message de Commit :
+
+```rust
+rustCopier le code
+feat: ajout de la validation des champs dans le formulaire d'inscription
+
+Ajout de la logique de validation pour vérifier que tous les champs sont remplis
+correctement avant l'envoi des données au serveur. Si un champ est vide, un message
+d'erreur s'affiche à l'utilisateur.
+
+```
+
+En suivant ces conventions, le projet gagne en lisibilité et en maintenabilité, facilitant ainsi la gestion des versions.
